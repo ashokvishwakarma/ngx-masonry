@@ -16,6 +16,10 @@ This updated version is also compatible with Angular Universal server side rende
 - html watcher was removed for better performance. Users need to have their own listener and call `layout()` when certain events are triggered
 - support prepend item
 
+### Versions
+Angular >= 8 use `npm install ngx-masonry masonry-layout --save`
+Angular <= 7 use `npm install ngx-masonry@1.1.4 masonry-layout --save`
+
 ## Installation
 
 `npm install ngx-masonry masonry-layout --save`
